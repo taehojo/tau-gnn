@@ -1,0 +1,42 @@
+data:
+  raw_data_path: "./data/Tau-ADNI.xlsx"
+  sheet_name: "TauPET_PVC_maxsample_with_Demo"
+  output_dir: "./results/"
+
+experiment:
+  random_seed: 42
+  test_size: 0.2
+  n_folds: 5
+  
+tau_regions:
+  - Tau_PVC_META_TEMPORAL
+  - Tau_PVC_ENTCTX
+  - Tau_PVC_MTL
+  - Tau_PVC_LTL
+  - Tau_PVC_TEMPLOBE
+  - Tau_PVC_LATPAR
+  - Tau_PVC_PARLOBE
+  - Tau_PVC_INFPAR
+  - Tau_PVC_PRECUNEUS
+
+ml_params:
+  svm:
+    kernel: rbf
+    probability: true
+    
+  random_forest:
+    n_estimators: 100
+    
+  logistic_regression:
+    max_iter: 1000
+    
+gnn_params:
+  hidden_dim: 64
+  num_heads: 4
+  dropout: 0.5
+  learning_rate: 0.001
+  epochs: 100
+  
+graph_params:
+  similarity_threshold: 0.7
+  k_neighbors: 10
