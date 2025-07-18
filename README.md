@@ -36,15 +36,6 @@ Edit `config.yaml` to modify:
 - Graph construction parameters
 - Experiment settings
 
-## Data Structure
-
-The code expects ADNI tau PET data with the following columns:
-- `RID`: Subject ID
-- `BL_DXGrp`: Baseline diagnosis group
-- `V1_*_SUVR`: Visit 1 tau SUVR values for each region
-- `V2_*_SUVR`: Visit 2 tau SUVR values for each region
-- Demographics: Age, Gender, Education, APOE status
-
 ## Citation
 
 If you use this code, please cite our work on enhanced graph neural networks for tau PET analysis in Alzheimer's disease research.
