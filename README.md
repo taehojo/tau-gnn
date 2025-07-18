@@ -24,19 +24,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run all experiments with a single command:
-
 ```bash
 python run_experiments.py
 ```
-
-This will:
-1. Load and preprocess ADNI tau PET data
-2. Calculate longitudinal features from V1 and V2 visits
-3. Run Traditional ML models (Logistic Regression, SVM, Random Forest)
-4. Run Simple GNN (GCN) baseline
-5. Run Enhanced Multi-relational GNN
-6. Save all results to the `results/` directory
 
 ## Configuration
 
