@@ -38,15 +38,6 @@ This will:
 5. Run Enhanced Multi-relational GNN
 6. Save all results to the `results/` directory
 
-## Results
-
-The Enhanced GNN achieves the best performance:
-- Enhanced GNN: AUC 0.791 ± 0.081
-- Logistic Regression: AUC 0.759 ± 0.049  
-- SVM: AUC 0.748 ± 0.062
-- Random Forest: AUC 0.746 ± 0.066
-- Simple GNN: AUC 0.681 ± 0.095
-
 ## Configuration
 
 Edit `config.yaml` to modify:
