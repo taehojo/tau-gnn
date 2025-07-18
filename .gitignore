@@ -27,3 +27,4 @@ ENV/
 .idea/
 .vscode/
 *.log.claude/
+INTERNAL_DETAILED_REPORT.md

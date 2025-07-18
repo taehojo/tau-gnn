@@ -1,0 +1,31 @@
+Rank,Feature,Importance (%),Type,Brain Region
+1,Tau_PVC_ENTCTX_baseline,49.780718349228735,Baseline,Entorhinal Cortex
+2,change_std,10.076012607518802,Statistics,All Regions
+3,Tau_PVC_ENTCTX_annual_change,5.8018480790358655,Annual Change,Entorhinal Cortex
+4,Tau_PVC_MTL_baseline,5.075842545686758,Baseline,Medial Temporal Lobe
+5,Tau_PVC_META_TEMPORAL_baseline,3.836464114638964,Baseline,Meta-temporal
+6,Tau_PVC_MTL_percent_change,2.8160792858449555,Percent Change,Medial Temporal Lobe
+7,Tau_PVC_MTL_annual_change,2.483624756253085,Annual Change,Medial Temporal Lobe
+8,Tau_PVC_ENTCTX_percent_change,2.128906214622871,Percent Change,Entorhinal Cortex
+9,Tau_PVC_LATPAR_annual_change,1.7803964392876306,Annual Change,Lateral Parietal
+10,Tau_PVC_PRECUNEUS_percent_change,1.7373275256043728,Percent Change,Precuneus
+11,change_max,1.6688172612155814,Statistics,All Regions
+12,Tau_PVC_INFPAR_percent_change,1.6324451610968505,Percent Change,Inferior Parietal
+13,Tau_PVC_PARLOBE_percent_change,0.7349262324099276,Percent Change,Parietal Lobe
+14,Tau_PVC_INFPAR_baseline,-0.0909705016179913,Baseline,Inferior Parietal
+15,Tau_PVC_LTL_percent_change,-0.144504758813056,Percent Change,Lateral Temporal Lobe
+16,Tau_PVC_PARLOBE_annual_change,-0.1568895872045784,Annual Change,Parietal Lobe
+17,Tau_PVC_LATPAR_percent_change,-0.1585977526479682,Percent Change,Lateral Parietal
+18,Tau_PVC_META_TEMPORAL_percent_change,-0.2179432943411985,Percent Change,Meta-temporal
+19,Tau_PVC_LATPAR_baseline,-0.2467104104608201,Baseline,Lateral Parietal
+20,Tau_PVC_PRECUNEUS_baseline,-0.4699769420306339,Baseline,Precuneus
+21,Tau_PVC_TEMPLOBE_annual_change,-0.4982887150791958,Annual Change,Temporal Lobe
+22,Tau_PVC_LTL_baseline,-0.587271807712988,Baseline,Lateral Temporal Lobe
+23,Tau_PVC_TEMPLOBE_baseline,-0.6743806982034135,Baseline,Temporal Lobe
+24,Tau_PVC_PARLOBE_baseline,-0.8640600179399917,Baseline,Parietal Lobe
+25,Tau_PVC_INFPAR_annual_change,-1.2101786132252277,Annual Change,Inferior Parietal
+26,change_mean,-1.6167798500275898,Statistics,All Regions
+27,Tau_PVC_LTL_annual_change,-2.26881603355028,Annual Change,Lateral Temporal Lobe
+28,Tau_PVC_PRECUNEUS_annual_change,-2.610569876192949,Annual Change,Precuneus
+29,Tau_PVC_META_TEMPORAL_annual_change,-2.668720456788064,Annual Change,Meta-temporal
+30,Tau_PVC_TEMPLOBE_percent_change,-2.766767643814422,Percent Change,Temporal Lobe
